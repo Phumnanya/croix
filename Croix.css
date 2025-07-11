@@ -242,6 +242,18 @@ header {
 .offers-box i {
     color: #DA0037;
 }
+.socials-box {
+    width: 23%;
+    height: auto;
+    box-sizing: border-box;
+}
+.socials-box a {
+    color: #DA0037;
+    text-decoration: none;
+}
+.socials-box i {
+    color: #DA0037;
+}
 .shipping-offers {
     width: 100%;
     box-sizing: border-box;
