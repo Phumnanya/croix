@@ -190,18 +190,17 @@ header {
 }
 .trending-boxes {
     width: 15%;
-    padding: 4px;
+    padding: 10px;
     height: 400px;
     box-sizing: border-box;
     color: black;
     text-align: justify;
-    word-wrap: break-word;
 }
-
 @media (max-width: 800px) {.trending-boxes {width: 50% ;}}
 
 .trending-boxes a {
     color: #DA0037;
+    word-break: break-all;
 }
 .trending-boxes i {
     color: yellow;
