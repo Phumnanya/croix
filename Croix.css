@@ -190,17 +190,18 @@ header {
 }
 .trending-boxes {
     width: 15%;
-    padding: 10px;
+    padding: 15px;
     height: 400px;
     box-sizing: border-box;
     color: black;
     text-align: justify;
+    word-break: break-all;
 }
 @media (max-width: 800px) {.trending-boxes {width: 50% ;}}
 
 .trending-boxes a {
     color: #DA0037;
-    word-break: break-all;
+    text-decoration: none;
 }
 .trending-boxes i {
     color: yellow;
@@ -222,7 +223,7 @@ header {
     align-items: center;
 }
 .offers-box {
-    width: 23%;
+    width: 45%;
     height: auto;
     box-sizing: border-box;
     color: black;
@@ -239,6 +240,27 @@ header {
 }
 .offers-box i {
     color: #DA0037;
+}
+.shipping-offers {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 1em 0 2em 0;
+    align-items: center;
+}
+.shipping-offers-box {
+    width: 30%;
+    height: auto;
+    box-sizing: border-box;
+    color: black;
+    padding: 15px;
+}
+.shipping-offers-box i {
+    color: #DA0037;
+    text-align: center;
+    margin: auto;
 }
 .shippingbox {
     display: inline-block;
