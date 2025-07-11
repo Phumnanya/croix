@@ -230,6 +230,7 @@ header {
 }
 .offers-box a {
     color: #DA0037;
+    text-decoration: none;
 }
 .offers-box img {
     max-width: 100%;
